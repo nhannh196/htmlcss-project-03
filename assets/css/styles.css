@@ -176,6 +176,10 @@ a {
     line-height: 1.75; /* 175% */
 }
 
+.btn-login:hover {
+    color: #fff;
+}
+
 .btn-signup {
     padding: 8px 20px;
     font-size: 1.6rem;
@@ -350,7 +354,70 @@ a {
     line-height: 1.75; /* 175% */
 }
 
-.service-action{
+.service-action {
     margin-top: 55px;
     padding: 15px 48px;
+}
+
+/* ------------------------------------------------------- Works ------------------------------------------------------- */
+.works {
+    padding: 100px 0;
+    background-color: #f6fbff;
+}
+
+.works__desc {
+    margin-top: 18px;
+    max-width: 40%;
+}
+
+.works__list {
+    margin-top: 86px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.works__item {
+    padding: 43px 42px;
+    border-radius: 4px;
+    border: 16px solid #eaf6ff;
+    transition: 0.5s;
+}
+
+.works__item:hover {
+    border-color: #2E80CE;
+    transform: translateY(-16px);
+}
+
+.works__item-more:hover{
+    color: #2E80CE;
+}
+
+.works__item-heading {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.38462; /* 138.462% */
+}
+
+.works__item-desc {
+    margin-top: 28px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.works__item-more {
+    margin-top: 18px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
 }
