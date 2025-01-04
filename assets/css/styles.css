@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px 0;
+    background-color: #2e80ce;
+    color: #fff;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    background-color: #026dd2;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------- Header ------------------------------------------------------- */
+.header {
+    padding: 36px 0 110px;
+    background-color: #10375c;
+}
+
+.header__menu__layout {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+/* Logo */
+.logo {
+    font-size: 1rem;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.logo__icon {
+    position: relative;
+    content: "";
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #2e80ce;
+}
+
+.logo__icon::after {
+    position: absolute;
+    content: "";
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    top: 1.1em;
+    left: 1.1em;
+    background-color: #fff;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logo__name:first-child {
+    color: #fff;
+    font-family: Sora;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.7778; /* 77.778% */
+}
+
+.logo__name:last-child {
+    color: #fff;
+    font-family: Sora;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1667;
+}
+
+/* Nav */
+.nav-bar {
+    margin-left: 289px;
+    display: flex;
+}
+
+.nav-bar__item {
+    position: relative;
+    padding: 21px;
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.nav-bar__item:hover,
+.nav-bar__item.active {
+    color: #fff;
+    font-style: normal;
+    text-shadow: 1px 0 0 #fff;
+}
+
+.nav-bar__item.active {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-bar__item.active::before {
+    content: "";
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.header__action {
+    margin-left: 201px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.btn-login {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.btn-signup {
+    padding: 8px 20px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
