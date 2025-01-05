@@ -463,11 +463,67 @@ a {
     height: 370px;
 }
 
-.about-us__content-desc{
+.about-us__content-desc {
     margin-top: 18px;
 }
 
-.about-us__content-btn{
+.about-us__content-btn {
     margin-top: 38px;
     padding: 15px 51px;
+}
+
+/* ------------------------------------------------------- About us ------------------------------------------------------- */
+
+.team-layout {
+    text-align: center;
+}
+
+.team__btn {
+    margin-top: 38px;
+    padding: 15px 26px;
+}
+
+.team__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.team__item-bg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 318px;
+    /* overflow: hidden; */
+    background-color: #eaf6ff;
+    border-radius: 6px;
+}
+
+.team__item-img {
+    /* padding-top: 28px; */
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.team__item:last-of-type .team__item-img {
+    width: 95%;
+}
+
+.team__item-heading {
+    margin-top: 12px;
+    color: #10375c;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.team__item-desc {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.88714; /* 185.714% */
 }
