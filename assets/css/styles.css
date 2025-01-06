@@ -727,3 +727,43 @@ a {
 .blog__item-learn-more:hover {
     color: #2e80ce;
 }
+
+/* ------------------------------------------------------- Appointment ------------------------------------------------------- */
+.appointment {
+    margin-top: 70px;
+}
+
+.appointment-layout {
+    text-align: center;
+    padding: 100px 178px;
+    background: #f6fbff;
+}
+
+.appointment__heading {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.appointment__heading::after {
+    content: "";
+    width: 136px;
+    height: 2px;
+    background-color: #2e80ce;
+}
+
+.appointment__desc {
+    width: 76%;
+    margin: 18px auto 0;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.appointment__btn{
+    margin-top: 38px;
+    padding: 15px 40px;
+}
