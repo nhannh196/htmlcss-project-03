@@ -825,6 +825,9 @@ a {
     line-height: 1.85714; /* 185.714% */
     white-space: nowrap;
 }
+.footer__menu-item:hover{
+    color: #fff;
+}
 
 .footer__menu-icons {
     display: flex;
